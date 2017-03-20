@@ -3,8 +3,9 @@
 	padding:0px;
 }
 html, body{
-	width: 100%;	
+	min-width: 100vw;	
 	height: 100%;
+
 }
 header{
 	/*width: 100%;*/
@@ -14,18 +15,18 @@ header{
 	/*align-items: center;*/
 	/*position: relative;*/
 	/*text-align: content: er;*/
+	border-bottom:dashed 3px yellow;
 }
 nav{
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-top: 5%;
 }
-/*nav ul{
-
-
-
-}*/
+nav ul{
+	text-align: center;
+}
 nav ul li{
 	display: inline;
 	font-family: FreightSansProBook-Regular;
@@ -41,4 +42,44 @@ nav div {
 	border:solid #000 1px;
 	height: 8px;
 	width: 80%;
+	margin: 0 auto;
+}
+
+#logo-turma{
+	width: 7%;
+	margin-left:11%;
+	margin-top:33px;
+}
+
+header h1, h2{
+	margin:0 auto;
+}
+header h1{
+	margin-top: 8%;
+
+}
+header p{
+	margin:0 auto;
+	margin-top:17%;
+	margin-bottom: 1%;
+	font-family: FreightSansProBook-Regular;
+	font-size: 0.88em;
+	color: #000000;
+	font-style: normal;
+	text-align: center;
+	line-height: 0.75em;
+}
+#legume1{
+	position: absolute;
+	width: 28%;
+	top:20%;
+	right: -5%;
+	background: lightgreen;
+}
+
+#legume2{
+	position: absolute;
+	width: 16%;
+	top:45%;
+	background: lightgreen;
 }
