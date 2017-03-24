@@ -83,7 +83,7 @@ header p{
 	top:45%;
 	background: lightgreen;
 }
-.sobre{
+#sobre{
 	width: 53%;
 	margin: 0 auto;
 	padding-top: 16px;
@@ -99,8 +99,9 @@ section h2{
 	/*line-height: 3.16em;*/
 	background: yellow;
 	min-width: 50%;
+	margin-top: 82px;
 }
-.sobre h3{
+#sobre h3{
 	font-family: FreightSansProMedium-Regular;
 	font-size: 1.44em;
 	color: #000000;
@@ -110,7 +111,7 @@ section h2{
 	padding-top:24px;
 }
 
-.sobre p{
+#sobre p{
 	font-family: FreightSansProBook-Regular;
 	font-size: 1.25em;
 	color: #000000;
@@ -119,4 +120,29 @@ section h2{
 	line-height: 1.07em;
 	margin-top: 22px;
 	
+}
+#resultados {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 89%;
+	margin: 0 auto;
+	border: dashed 3px yellow;
+
+}
+
+#resultados h2 {
+	width: 100%;
+	align-self: flex-start;
+}
+.image{
+	margin: 0 8%;
+	margin-top: 126px;
+	margin-bottom: 202px;
+	width: 30%;
+	height: 30%;
+	/*background: blue;*/
+}
+.image:last-child{
+	background: lightgreen;
 }
