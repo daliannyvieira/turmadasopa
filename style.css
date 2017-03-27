@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-*{
-	margin: 0px;
-	padding:0px;
+img{
+	max-width: 200px;
 }
-html, body{
+html, body {
 	min-width: 100vw;	
-	height: 100%;
-
+	height: 100%
 }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+}
+
 header{
-	/*width: 100%;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -146,3 +148,41 @@ section h2{
 .image:last-child{
 	background: lightgreen;
 }
+#midia{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#midia div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cont-midia {
+	display: flex;
+	flex-direction: row;
+	background: pink;
+}	
+.cont-midia1{
+	max-width: 30%;
+	background: green;
+}
+.cont-midia2{
+	max-width: 30%;
+}
+#midia img{
+	width: 14%;
+}
+#midia a{
+	font-family: 'FreightSansProBook-Regular';
+	font-size: 0.88em;
+	color: #036fef;
+	font-style: normal;
+	text-decoration: underline;
+	text-align: left;
+	line-height: 0.75em
+	flex-end: column;
+	}
