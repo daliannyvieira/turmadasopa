@@ -241,6 +241,7 @@ section h2{
 }
 .cont-acontecendo div:nth-child(1) img{
 	width: 25%;
+
 }
 .cont-acontecendo div:nth-child(2) img{
 	width: 20%;
@@ -272,3 +273,13 @@ section h2{
 	font-family: "FreightSansProSemibold-Regular";
 	src: url(fonts/);
 }
+#ajudar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.a.ajudar {
+	display: flex;	
+}
+
