@@ -1,26 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 img{
 	max-width: 200px;
 }
+
 html, body {
-	min-width: 100vw;	
-	height: 100%
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
-  position: relative;
+
+*, *:before, *:after{
+	box-sizing: border-box;
+	position: relative;
 }
+
 
 header{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/*align-items: center;*/
-	/*position: relative;*/
-	/*text-align: content: er;*/
-	border-bottom:dashed 3px yellow;
+	border-bottom: dashed 3px yellow;
 }
+
 nav{
 	width: 100%;
 	display: flex;
@@ -28,51 +34,57 @@ nav{
 	justify-content: center;
 	margin-top: 5%;
 }
+
 nav ul{
+	padding: 0;
+	margin: 0;
 	text-align: center;
 }
+
 nav ul li{
 	display: inline;
-	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'FreightSansProBook-Regular';
 	font-size: 0.88em;
 	color: #000000;
-	/*font-style: all caps;*/
+	text-transform: uppercase;
 	line-height: 0.75em;
-	padding-bottom: 10px;
-	padding: 4%;
+	padding: 4% 2%;
 }
+
 nav div {
-	border:solid #000 1px;
+	border: solid #000 1px;
 	height: 8px;
 	width: 80%;
 	margin: 0 auto;
 }
+
 #logo-turma{
-	width: 7%;
-	margin-left:11%;
-	margin-top:33px;
+	width: 15%;
+	margin-left: 11%;
+	margin-top: 33px;
 }
+
 header h1, h2{
-	margin:0 auto;
+	margin: 0 auto;
 }
+
 header h1 {
 	font-family: 'HaikusScript-V8';
-	font-size: 6.25em;
+	font-size: 6em;
 	color: #000000;
 	font-style: normal;
 	text-align: left;
-	/*line-height: 5.36em;*/
-	margin-top: 8%;
+	margin-top: 7%;
 }
+
 header h2 {
 	font-family: 'HaikusScript-V8';
-	font-size: 3.69em;
+	font-size: 3em;
 	color: #000000;
 	font-style: normal;
 	text-align: left;
-	/*line-height: 3.16em;*/
 }
+
 header p{
 	margin:0 auto;
 	margin-top:17%;
@@ -84,40 +96,41 @@ header p{
 	text-align: center;
 	line-height: 0.75em;
 }
+
 #legume1{
 	position: absolute;
 	width: 28%;
-	top:20%;
-	right: -5%;
-	background: lightgreen;
+	top: 20%;
+	right: -15%;
 }
 
 #legume2{
 	position: absolute;
-	width: 16%;
-	top:45%;
-	background: lightgreen;
+	width: 28%;
+	top: 45%;
+	left: -10%;
 }
+
 #sobre{
-	width: 53%;
+	width: 60%;
 	margin: 0 auto;
 	padding-top: 16px;
 	padding-bottom: 51px;
-
 }
+
 section h2{
 	font-family: 'HaikusScript-V8';
 	font-size: 2.69em;
 	color: #000000;
 	font-style: normal;
 	text-align: center;
-	/*line-height: 3.16em;*/
 	background: yellow;
 	min-width: 50%;
 	margin-top: 82px;
 }
+
 #sobre h3{
-	font-family: FreightSansProMedium-Regular;
+	font-family: 'FreightSansProMedium-Regular';
 	font-size: 1.44em;
 	color: #000000;
 	font-style: normal;
@@ -127,87 +140,82 @@ section h2{
 }
 
 #sobre p{
-	font-family: FreightSansProBook-Regular;
+	font-family: 'FreightSansProBook-Regular';
 	font-size: 1.25em;
 	color: #000000;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.07em;
-	margin-top: 22px;
-	
+	margin-top: 22px;	
 }
+
 #resultados {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 89%;
+	width: 60%;
 	margin: 0 auto;
 	border: dashed 3px yellow;
-
 }
 
 #resultados h2 {
 	width: 100%;
 	align-self: flex-start;
 }
+
 .image{
 	margin: 0 8%;
 	margin-top: 126px;
 	margin-bottom: 202px;
-	width: 30%;
-	height: 30%;
-	/*background: blue;*/
+	width: 100%;
+	height: 100%;
 }
-.image:last-child{
-	background: lightgreen;
-}
+
 #midia{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 60%;
+	margin: 0 auto;
 }
 
-/*#midia div{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}*/
 .cont-midia {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row nowrap;
-	/*background: pink;*/
 	max-width: 70%;
-	margin-top: 77px;
-}	
+	margin-top: 5%;
+}
+
 .cont-midia1{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-width: 50%;
+	max-width: 70%;
 	margin-right: 5%;
-	/*background: green; */
 }
+
 .cont-midia2{
 	display: flex;
 	flex-direction: column;
-	max-width: 14%;
-	/*background: blue;*/
+	max-width: 30%;
 }
+
 .cont-midia2 div{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
+
 #midia img{
-	/*flex-direction: column reverse;*/
 	width: 100%;
+	margin-top: 2%;
 }
+
 #midia a{
 	font-family: 'FreightSansProBook-Regular';
 	font-size: 0.88em;
@@ -218,30 +226,34 @@ section h2{
 	line-height: 0.75em
 	flex-end: column;
 }
-#acontecendo{
+
+#acontecendo {
+	width: 60%;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
 .cont-acontecendo{
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
-	margin: 0 200px;
 }
+
 .cont-acontecendo div{
-	width: 21%;
+	width: 30%;
 	margin-top: 74px;
 	margin-bottom: 108px;
-
 }
+
 .cont-acontecendo div img{
 	align-self: center;
 }
+
 .cont-acontecendo div:nth-child(1) img{
 	width: 25%;
-
 }
 .cont-acontecendo div:nth-child(2) img{
 	width: 20%;
@@ -249,6 +261,7 @@ section h2{
 .cont-acontecendo div:nth-child(3) img{
 	width: 25%;
 }
+
 @font-face {
 	font-family: 'FreightSansProBook-Regular';
 	src: url('fonts/FREIGSANPROBOOK.OTF');
@@ -273,14 +286,51 @@ section h2{
 	font-family: "FreightSansProSemibold-Regular";
 	src: url(fonts/);
 }
+
 #ajudar {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 60%;
+	margin: 0 auto;
 }
-.a-judar {
-	display: flex;	
-}
-.a-ajuda
 
+.a-ajudar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.a-ajudar div {
+	max-width: 35%;
+	margin: 0 auto;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 2% 0;
+}
+
+footer ul {
+ display: flex;
+ flex-direction: column;
+ max-width: 30%;
+ margin: 2% 0;
+}
+
+footer ul li {
+	list-style: none;
+}
+
+footer ul div {
+	display: flex;
+}
+
+footer ul li img,
+footer ul div img {
+	max-height: 150px;
+	max-width: 150px: 
+}
