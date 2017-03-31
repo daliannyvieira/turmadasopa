@@ -317,30 +317,26 @@ footer img {
 }
 footer ul {
  display: flex;
- align-items: center;
- /*flex-direction: row;*/
  justify-content: center;
  align-content: space-between;
- max-width: 30%;
+ max-width: 80%;
  margin: 2% 0;
 }
 
 footer ul li {
-/*	list-style: none;*/
 	display: inline;
 }
-footer li:nth-child(2){
-	margin-left: 5%;
-} 
-footer li:nth-child(3){
-	margin-left: 14%;
-}
+
 footer ul img, footer ul p{
 	margin-top: 32px;
 } 
 footer ul li div {
 	display: flex;
 	align-items: center;
+}
+
+footer ul li div img {
+	max-width: 40%;
 }
 
 /*footer ul div {
