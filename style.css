@@ -13,12 +13,10 @@ html, body {
 	align-items: center;
 }
 
-
 *, *:before, *:after{
 	box-sizing: border-box;
 	position: relative;
 }
-
 
 header{
 	display: flex;
@@ -311,26 +309,47 @@ section h2{
 footer {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin: 2% 0;
 }
-
+footer img {
+	max-width: 80%;
+}
 footer ul {
  display: flex;
- flex-direction: column;
+ align-items: center;
+ /*flex-direction: row;*/
+ justify-content: center;
+ align-content: space-between;
  max-width: 30%;
  margin: 2% 0;
 }
 
 footer ul li {
-	list-style: none;
+/*	list-style: none;*/
+	display: inline;
 }
-
-footer ul div {
+footer li:nth-child(2){
+	margin-left: 5%;
+} 
+footer li:nth-child(3){
+	margin-left: 14%;
+}
+footer ul img, footer ul p{
+	margin-top: 32px;
+} 
+footer ul li div {
 	display: flex;
+	align-items: center;
 }
 
-footer ul li img,
+/*footer ul div {
+	display: flex;
+}*/
+
+/*footer ul li img,
 footer ul div img {
 	max-height: 150px;
 	max-width: 150px: 
 }
+*/
