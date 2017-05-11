@@ -5,27 +5,28 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="fonts">
 	<title>Turma da Sopa</title>
+	<meta name="theme-color" content="#d9251c">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Turma da Sopa de Niterói.">
 </head>
 <body>
 	<header>
 		<nav>
 			<ul>
-				<li>SOBRE A TURMA</li>
-				<li>RESULTADOS</li>
-				<li>NA MÍDIA</li>
-				<li>ACONTECENDO</li>
-				<li>COMO AJUDAR</li>
+				<li><a href="#sobre">SOBRE A TURMA</a></li>
+				<li><a href="#resultados">RESULTADOS</a></li>
+				<li><a href="#midia">NA MÍDIA</a></li>
+				<li><a href="#acontecendo">ACONTECENDO</a></li>
+				<li><a href="#ajudar">COMO AJUDAR</a></li>
 			</ul>
 			<div></div>
 		</nav>
 		<img id="logo-turma" src="assets/logo-turmadasopa.png">
 		<h1>Turma da Sopa</h1>
 		<h2>de Niterói</h2>
-		<p>+55 21 98798-5057 | turmadasopadeniteroi@gmail.com | fb.com/turmadasopadeniteroi | Padre Augusto Lamego, 39, Niterói </p>
+		<p>+55 21 98798-5057 | turmadasopadeniteroi@gmail.com | <a href="https://www.facebook.com/turmadasopadeniteroi/">fb.com/turmadasopadeniteroi</a> | Padre Augusto Lamego, 39, Niterói </p>
 		<img id="legume1" src="assets/home1.svg">
-		<img id="legume2" src="assets/home2.svg">	
-
+		<img id="legume2" src="assets/home2.svg">
 	</header>	
 	<main>
 		<section id="sobre">
@@ -56,7 +57,10 @@
 			<div class="cont-midia">
 				<!-- <div class="cont-midia1"> -->
 				<div class="cont-midia1">
-					<iframe width="600" height="337" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="http://player.r7.com/video/i/535588746c4db2d6560134c2?layout=wide252p&full=true" mozallowfullscreen webkitallowfullscreen allowfullscreen></iframe>
+					<video width="320" height="240" controls>	
+  						<source src="assets/video.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
 					<p>
 						<a href="http://noticias.r7.com/rio-de-janeiro/balanco-geral-rj/videos/grupo-de-amigos-em-niteroi-distribui-sopa-para-pessoas-carentes-no-rio-17102015">Balanço Geral , R7 “Grupo de amigos em Niterói distribui sopa para pessoas carentes no Rio” (reportagem em vídeo, sobre o projeto da Turma da Sopa)</a>
 					</p>
@@ -111,23 +115,31 @@
 			<div class="a-ajudar">
 				<div>
 					<img src="assets/heart.svg">
-					<h3> VOLUNTÁRIOS</h3>
-					<p> Trabalhando nas tardes e noites de segunda-feira</p>
+					<div>
+						<h3> VOLUNTÁRIOS</h3>
+						<p> Trabalhando nas tardes e noites de segunda-feira</p>
+					</div>
 				</div>
 				<div>
 					<img src="assets/heart.svg">
-					<h3> DOAÇÃO DE MATERIAIS DESCARTÁVEIS</h3>
-					<p> Copo (300ml e 500ml), colheres e luvas de vinil.</p>
+					<div>
+						<h3> DOAÇÃO DE MATERIAIS DESCARTÁVEIS</h3>
+						<p> Copos (300ml e 500ml), colheres e luvas de vinil.</p>
+					</div>
 				</div>
 				<div>	
 					<img src="assets/heart.svg">
-					<h3> DOAÇÃO DE ALIMENTOS</h3>
-					<p> Carne, óleo de soja, macarrão...para o preparo da sopa.</p>
+					<div>
+						<h3> DOAÇÃO DE ALIMENTOS</h3>
+						<p> Carne, óleo de soja, macarrão... para o preparo da sopa.</p>
+					</div>
 				</div>
 				<div>
 					<img src="assets/heart.svg">
-					<h3> DEPÓSITO BANCÁRIO</h3>
-					<p> Banco Santander Agência 3451 Conta 01082060-4 Contribua com a sustentabilidade do projeto.</p>
+					<div>
+						<h3> DEPÓSITO BANCÁRIO</h3>
+						<p> Banco Santander<br> Agência 3451 Conta 01082060-4 Contribua com a sustentabilidade do projeto.</p>
+					</div>
 				</div>
 			</div> 
 		</section>
@@ -135,23 +147,24 @@
 	<footer>
 		<ul>
 			<li>Contatos
-				<p> +55 21 98798-5057 / 99482-9995
-					turmadasopadeniteroi@gmail.com
-					facebook.com/turmadasopadeniteroi
-					Rua Padre Augusto Lamego, 39 – Ponto cem Réis,
-					Centro, Niterói - RJ
+				<p> 
+					+55 21 98798-5057 / 99482-9995<br>
+					turmadasopadeniteroi@gmail.com<br>
+					<a href="https://www.facebook.com/turmadasopadeniteroi/">facebook.com/turmadasopadeniteroi</a><br>
+					Rua Padre Augusto Lamego, 39 – Ponto cem Réis,<br>
+					Centro, Niterói - RJ<br>
 				</p>
-			</li>
-			<li>Realização:
-				<img src="assets/logo-turmadasopa.png">
 			</li>
 			<li>Parceiros
 				<div>
-					<img src="assets/logo-hortifruti.png">
-					<img src="assets/logo-matita.png">
-					<p>Romero Refrigerantes</p>
+					<img src="assets/logo-hortifruti.png" alt="HortiFruti">
+					<p>Romero<br> Refrigerantes</p>
 				</div>
-				</ul>
+			</li>
+			<li>Produzido por
+				<div>
+					<a href="http://www.vainaweb.com.br"><img src="assets/vainaweb.svg" alt="Vai Na Web"></a>
+				</div>
 			</li>
 		</ul>
 	</footer>
