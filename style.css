@@ -373,7 +373,7 @@ footer ul li {
 }
 
 footer ul img, footer ul p{
-	margin-top: 32px;
+	margin-top: 10px;
 } 
 footer ul li div {
 	display: flex;
@@ -383,6 +383,15 @@ footer ul li div {
 footer ul li div img {
 	width: 100%;
 	margin: 5% 2%;
+}
+
+footer ul .romero {
+	margin-left: 20px;
+    background-color: #acedff;
+    color: #ff3e34;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 900;
 }
 
 @media (max-width: 920px) {
@@ -444,6 +453,10 @@ footer ul li div img {
 	#ajudar .a-ajudar div div {
 		width: 50%;
 		top: 20%;
+	}
+
+	.a-ajudar img {
+		width: 100%;
 	}
 
 	footer ul {
