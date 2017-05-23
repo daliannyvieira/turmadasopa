@@ -39,7 +39,7 @@ nav ul{
 }
 
 nav ul li{
-	padding: 2% 2%;
+	padding: 0 2%;
 	list-style: none;
 }
 
@@ -66,16 +66,17 @@ nav ul li a:hover::before{
 nav ul::before {
 	content: "";
 	position:absolute;
-	bottom: 20%;
+	bottom: -20px;
 	border: solid #000 1px;
 	height: 8px;
 	width: 80%;
 }
 
 #logo-turma{
-	width: 9%;
+	width: 120px;
 	margin-left: 11%;
-	margin-top: 0%;
+	position: absolute;
+	top: 5%;
 }
 
 header h1, h2{
@@ -88,7 +89,7 @@ header h1 {
 	color: #000000;
 	font-style: normal;
 	text-align: left;
-	margin-top: 5%;
+	margin-top: 12%;
 }
 
 header h2 {
